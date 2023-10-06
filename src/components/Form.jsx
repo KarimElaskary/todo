@@ -11,7 +11,7 @@ const Form = ({ onAdd }) => {
   };
   return (
     <div className='flex items-center justify-center'>
-      <form onSubmit={handleSubmit} className='form'>
+      <form onSubmit={handleSubmit} className='form flex-row'>
         <input
           type='text'
           value={task}
